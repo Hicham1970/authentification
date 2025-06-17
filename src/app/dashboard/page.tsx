@@ -27,11 +27,11 @@ function DashboardPage() {
               )}
               <li className="flex items-center space-x-2">
                 <span><ContactRound /></span>
-                <span><b>Votre Nom :</b>{user?.displayName}</span>
+                <span><b>Votre Nom :</b>{ user?.displayName}</span>
               </li>
               <li className="flex items-center space-x-2">
                 <span><Mail /></span>
-                <span><b>Votre Email :</b>{user?.email}</span>
+                <span><b>Votre Email :</b>{ user?.email}</span>
               </li>
               <li>
                 <span className="text-muted-foreground">Membre depuis le : {
